@@ -32,7 +32,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: garvitavijay982/cicd-github-actions
+        image: vjgarvita/cicd-github-actions
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
